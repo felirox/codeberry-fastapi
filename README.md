@@ -36,11 +36,19 @@ Run the following command to install all the necessary libraries:
 pip install -r requirements.txt
 ```
 ## Pointers
+
 - FastAPI has been used to develop the Application
 - The same has been deployed on Heroku
 - async has been used in the program to fasten the process and increase efficiency
 - The time taken to complete each task is printed in the console
-- PyTest has been used to implement testing scenarios wherever possible
+- PyTest has been used to implement testing scenarios wherever possible *(test_all_instances.py)*
+- Sending a POST request to /uploadfiles along with the optional parameters will return back with the processed file
+
+## Running Locally
+
+- To run the application locally, make sure all the requirements are installed, as mentioned above. 
+
+- To make the running easier, all you need to do is simply run the *start_app.py* file and uvicorn will start the server.
 
 ## References
 - FastAPI Documentation for Python
