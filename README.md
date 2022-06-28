@@ -13,7 +13,7 @@ A HTML powered UI has also been provided to access the API with ease.
 
 You can [use this file](https://raw.githubusercontent.com/felirox/codeberry-fastapi/main/ttrfastapi.csv) for instantly uploading and checking how the file is working.
 
-***Right click and click save to save this file to your PC.***
+***Right click and click "save as" to save this file to your PC.***
 
 ## Installation
 
@@ -35,6 +35,12 @@ Run the following command to install all the necessary libraries:
 ```bash
 pip install -r requirements.txt
 ```
+## Pointers
+- FastAPI has been used to develop the Application
+- The same has been deployed on Heroku
+- async has been used in the program to fasten the process and increase efficiency
+- The time taken to complete each task is printed in the console
+- PyTest has been used to implement testing scenarios wherever possible
 
 ## References
 - FastAPI Documentation for Python
