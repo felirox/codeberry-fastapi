@@ -2,5 +2,6 @@ fastapi
 pandas
 uvicorn
 gunicorn
+python-multipart
 pytest
 asyncio
