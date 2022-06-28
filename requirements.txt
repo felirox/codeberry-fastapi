@@ -1,0 +1,5 @@
+fastapi
+pandas
+csv
+pytest
+asyncio
